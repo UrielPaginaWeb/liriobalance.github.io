@@ -1,0 +1,17 @@
+.contenedorportada{ 
+    width: 1460px; 
+    height: 500px;
+    text-align: center;
+}
+
+
+.sectionportada{
+    width: 1460px; 
+    height: 800px;
+    text-align: center;
+}
+
+.h1Portada{
+    font-weight: 100;
+    color: black;
+}

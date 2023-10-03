@@ -1,0 +1,100 @@
+
+/*Estilo para el contenedor del fondo del logo*/
+.contenedor{
+    width: 1460px; 
+    height: 500px;
+}
+/*Estilo fuente y color eslogan*/
+.h1{
+    font-weight: 100;
+    color: black;
+}
+/*Estilo para el contenedor del logo y el eslogan*/
+.header{
+    width: 1460px; 
+    height: 120px;
+}
+/*Estilo para el logo*/
+.logo{
+    width: 200px; 
+    height: 150px; 
+    float: left; 
+    text-align: center;
+}
+/*Estilo para el eslogan*/
+.slogan{
+    width: 1260px; 
+    height: 55px; 
+    float: left; 
+    text-align: center;
+}
+/*Estilo para el nav (espacio donde esta el menu)*/
+.nav{
+    float: both;
+}
+
+/*Estilo para el aside (imagen de la izquierda)*/
+.aside{
+    background-color: white;
+    width: 350px; 
+    height: 500px; 
+    float: left;
+}
+/*Estilo para la section de en medio*/
+.section{
+    background-color: white; 
+    width: 1110px; 
+    height: 500px; 
+    float: right; 
+    text-align: center;
+}
+/*Estilo para el footer parte inferior*/
+.footer{
+    background:linear-gradient(to top, white,black, black);
+    color: white; 
+    width: 1460px; 
+    height: 100px; 
+    float: left;
+}
+/*Estilo para imagenes en aside*/
+
+    aside{
+        display: flex;
+        width: 350px; 
+        height: 500px; 
+      }
+      .carrete-img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+      }
+      .carrete-img:hover{
+        cursor: crosshair;
+        width: 350px;
+        opacity: .8;
+        filter: contrast(120%);
+      }
+
+.head{
+    background-color: red;
+}
+
+.preguntas{
+    text-align: center; 
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .div{
+    background-color: white; 
+    width: 1110px; 
+    height: 500px; 
+    float: right; 
+    text-align: center;
+  }
+
+  
+
+  
